@@ -5,7 +5,7 @@ default: &default
 
 development:
   <<: *default
-  adapter: mysql12
+  adapter: mysql2
   username: root
   password: Hachi88%
   host: localhost
@@ -13,7 +13,7 @@ development:
 
 test:
   <<: *default
-  adapter: mysql12
+  adapter: mysql2
   username: root
   password: Hachi88%
   host: localhost
